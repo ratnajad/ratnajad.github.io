@@ -1,0 +1,184 @@
+/*
+ First External CSS Stylesheet
+ */
+
+.title {
+  font-size: 40px;
+  color: lightseagreen;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/*
+ body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: black;;
+  }
+
+h1 {
+  font-size: 25px;
+}
+
+h4 {
+    float: inline-end;
+}
+
+h3 {
+  font-size: 25px;
+  margin-right: 5px;
+  margin-left: 10px;
+  float: left;
+  inline-size: 500px;
+}
+
+/* Giving our navbar some padding and a background color */
+/* 
+.navbar {
+  padding: 10px;
+  background: white;
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+/* 
+.navbar li {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  background: teal;
+  border-radius: 0px;
+}
+
+/* Getting rid of the default link styles here */
+/* 
+.navbar li a {
+  color: white;
+  font: bold;
+  text-decoration: none;
+}
+.navbar2 li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: teal;
+    border-radius: 2px;
+  }
+  
+  /* Getting rid of the default link styles here */
+  /* 
+  .navbar2 li a {
+    color: black;
+    font: bold;
+    text-decoration: none;
+  }
+
+/* Styling the header, giving it a height, a background color, and some top padding */
+
+/* 
+.header h1 {
+    inline-size: 50%;
+    font-size: 40px;
+    color: teal;
+}
+
+
+
+
+
+/* Styling for HTML elements */
+/*
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: black;
+  background: #e0dfdf;
+}
+
+header {
+  background: rgb(255, 255, 255);
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
+
+h2 {
+    inline-size: 150px;
+  font-size: 24px;
+}
+
+h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 7px 0;
+    margin: 0;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background: teal;
+  }
+
+  h5 {
+    float: center;
+    margin-left: .5rem;
+    font-size: 24px;
+  }
+
+  aside {
+    width: 30%;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    color: black;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+h4 {
+    float: right;
+    width: 25%;
+    padding: 5px;
+}
+/* Giving our navbar some padding and a background color */
+/*
+.navbar {
+    padding: 10px;
+    background: #5191fd;
+  }
+  
+  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+  /*
+  .navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+  }
+  
+  /* Getting rid of the default link styles here */
+  /*
+  .navbar li a {
+    color: #000;
+    text-decoration: none;
+  }

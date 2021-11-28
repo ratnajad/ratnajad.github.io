@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Humidity</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <a class="navbar-brand d-lg-inline-block text-black" href="index.html">
+                    Latitude
+                </a>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <div class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Max Temp</a>
+                    <a class="dropdown-item" href="#">Humidity</a>
+                    <a class="dropdown-item" href="#">Cloudiness</a>
+                    <a class="dropdown-item" href="#">Wind Speed</a>
+                  </div>
+                </div>
+                </div>
+                <div class="nav-item">
+                  <a href="comparison.html" target="_blank">Comparison</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link" href="data.html" target="_blank">Data</a>
+                </div>
+              </form>
+            </div>
+          </nav>
+        <div class="container">
+            <div class ="row">
+              <div class="col-md-8">
+                <div class="col-md-12">
+                  <div class="title">Humidity</div>
+                  </a>
+                </div>
+                <div class="pargaraph">
+                  <p>
+                    <div class="lat">
+                      <img src="Fig2.png">
+                      The purpose of this project was to analyze and visulize weather changes in cities depeding on location to the equator. This data was pulled from the provided data set in csv form. Then, matplotlib was used to plot the 4 different visualizations.
+                    </div>
+                  </p>
+                  <p>
+                    After assembling the dataset, we used Matplotlib to play various aspects of the weather vs. latitude.
+                    Factors we looked at included: temperature, cloudiness, wind speed, and humidity.
+                    This site provides the source data and visualizations created as part of the analysis,
+                    as well as explanations and descriptions of an trends and correlations witnessed.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="col-md-12">
+                    <div class="title">
+                        Visualizations
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3 col-md-6">
+                            <a href="temperature.html"> <img width="190" height="160" src="Fig1.png" ></a>
+                    </div>
+                    <div class="col-3 col-md-6">
+                            <a href="humidity.html"> <img width="190" height="160" src="Fig2.png" ></a>
+                    </div>
+                    <div class="col-3 col-md-6">
+                            <a href="cloudiness.html"> <img width="190" height="160" src="Fig3.png" ></a>
+                    </div>
+                    <div class="col-3 col-md-6">
+                            <a href="wind_speed.html"> <img width="190" height="160" src="Fig4.png" ></a>
+                    </div>
+                </div>
+            </div>
+        </div> <!--"row"-->
+      </div> <!--"container"-->
+    </body>
+</html>
